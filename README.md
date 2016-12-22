@@ -41,27 +41,41 @@ Provide evidence that predictions are reasonable (e.g. benchmarking)
 My solution 
 ====================================================================================================================================
 1)Rapid ETL is conducted via softwares Trifacta and Python Orange Package can also be used.
+
 2)Assesment of missing values, outliers and transforming via Trifacta or Orange
+
 3)Feature Engineering and Feature importance assessment report using Orange 
+
 4)Data preparation for Neural Network 
+
 5)Selection of appropriate Non-Temporal Neural Network for the data 
+
 •GFF = Generalized Feedforward
+
 •LReg = Linear/Logistic Regression
+
 •MLP = Multi-layer Perceptron
+
 •MOD = Modular Network
+
 •PNN = Probabilistic Network
+
 •SVM = Support Vector Machine
 
-Number of Hidden Layers
-Tried with 1, 2 
+Number of Hidden Layers:Tried with 1, 2 
 
 Learning Algorithm
-This acronym represents the learning algorithm used on the backpropagation plane.The following methods were tried  
+
+This acronym represents the learning algorithm used on the backpropagation plane.The following methods were tried  :
 
 •CG = Conjugant Gradient
+
 •LM = Levenberg-Marquardt
+
 •MOM_B = Momentum (Batch Learning)
+
 •MOM_O = Momentum (Online Learning)
+
 •RProp = Resilient Backpropagation
 
 The neural network parameter optimization used is PNN Smoothing (Beta).
