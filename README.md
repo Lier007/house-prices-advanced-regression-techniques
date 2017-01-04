@@ -64,7 +64,7 @@ My solution
 
 Number of Hidden Layers:Tried with 1, 2 
 
-Learning Algorithm
+Learning Algorithms considered for this particular problem
 
 This acronym represents the learning algorithm used on the backpropagation plane.The following methods were tried  :
 
@@ -78,4 +78,8 @@ This acronym represents the learning algorithm used on the backpropagation plane
 
 •RProp = Resilient Backpropagation
 
-The neural network parameter optimization used is PNN Smoothing (Beta).
+The best model with all the data present and without any outlier removals is as follows :
+
+Neural Network Model with a topology of Multilayer Perceptron( 51 inputs, 3 PE's) with Resilient backpropagation learning algorthim has yielded Correlation value of 0.957, RMSE value of 0.049 and Mean Abs Error of 0.031. 
+
+
